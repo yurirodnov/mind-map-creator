@@ -1,0 +1,24 @@
+# FRONTEND
+mindmap-frontend/logs
+mindmap-frontend/*.log
+mindmap-frontend/npm-debug.log*
+mindmap-frontend/yarn-debug.log*
+mindmap-frontend/yarn-error.log*
+mindmap-frontend/pnpm-debug.log*
+mindmap-frontend/lerna-debug.log*
+
+mindmap-frontend/node_modules
+mindmap-frontend/dist
+mindmap-frontend/dist-ssr
+mindmap-frontend/*.local
+
+# Editor directories and files
+mindmap-frontend/.vscode/*
+mindmap-frontend/!.vscode/extensions.json
+mindmap-frontend/.idea
+mindmap-frontend/.DS_Store
+mindmap-frontend/*.suo
+mindmap-frontend/*.ntvs*
+mindmap-frontend/*.njsproj
+mindmap-frontend/*.sln
+mindmap-frontend/*.sw?
