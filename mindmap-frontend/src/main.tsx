@@ -5,6 +5,7 @@ import { RouterProvider } from "react-router/dom";
 import { MainPage } from "./pages/main/MainPage";
 import { EditorPage } from "./pages/editor/EditorPage";
 import { ProfilePage } from "./pages/profile/ProfilePage";
+import { CollectionPage } from "./pages/collection/CollectionPage";
 import { AuthPage } from "./pages/auth/AuthPage";
 import App from "./App";
 
@@ -18,6 +19,7 @@ const router = createBrowserRouter([
       { index: true, element: <MainPage /> },
       { path: "/editor", element: <EditorPage /> },
       { path: "/profile", element: <ProfilePage /> },
+      { path: "/collection", element: <CollectionPage /> },
       { path: "/auth", element: <AuthPage /> },
     ],
   },
