@@ -1,3 +1,9 @@
+/* DESIGN TOKENS */
+
+:root {
+  --bg-main: #1a1a1a;
+}
+
 * {
   margin: 0;
   padding: 0;
