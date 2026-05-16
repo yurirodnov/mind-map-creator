@@ -17,6 +17,12 @@ const useStore = createWithEqualityFn<RFState>((set, get) => ({
       data: { label: "React Flow Mind Map" },
       position: { x: 0, y: 0 },
     },
+    {
+      id: "root",
+      type: "default",
+      data: { label: "React Flow Mind Map 2" },
+      position: { x: 0, y: 0 },
+    },
   ],
   edges: [],
   onNodesChange: (changes: NodeChange[]) => {

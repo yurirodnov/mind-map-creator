@@ -1,14 +1,10 @@
-import { ReactFlowProvider } from "@xyflow/react";
-import { Flow } from "../../components/editor-components/editor-wrapper/EditorWrapper";
+import { EditorWrapper } from "../../components/editor-components/editor-wrapper/EditorWrapper";
+import styles from "./EditorPage.module.css";
 
 export const EditorPage = () => {
   return (
-    <div>
-      <ReactFlowProvider>
-        <div className="flow-container">
-          <Flow />
-        </div>
-      </ReactFlowProvider>
+    <div className={styles.editorPage}>
+      <EditorWrapper />
     </div>
   );
 };
