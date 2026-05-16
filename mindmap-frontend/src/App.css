@@ -1,4 +1,10 @@
-* {
-  margin: 0;
-  padding: 0;
+#app {
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  display: flex;
+  flex-grow: 1;
 }

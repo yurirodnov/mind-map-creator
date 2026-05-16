@@ -31,7 +31,7 @@ export function Editor() {
       nodeOrigin={nodeOrigin}
       fitView
     >
-      <Controls showInteractive={false} />
+      <Controls showInteractive={true} />
       <Panel position="top-left">React Flow Mind Map</Panel>
     </ReactFlow>
   );
