@@ -14,17 +14,17 @@ const useStore = createWithEqualityFn<RFState>((set, get) => ({
     {
       id: "root",
       type: "default",
-      data: { label: "React Flow Mind Map" },
+      data: { label: "Root Node" },
       position: { x: 0, y: 0 },
     },
     {
-      id: "root",
+      id: "0",
       type: "default",
-      data: { label: "React Flow Mind Map 2" },
-      position: { x: 0, y: 0 },
+      data: { label: "Node 0" },
+      position: { x: 100, y: 100 },
     },
   ],
-  edges: [],
+  edges: [{ id: "root-0", source: "root", target: "0" }],
   onNodesChange: (changes: NodeChange[]) => {
     set({
       nodes: applyNodeChanges(changes, get().nodes),
