@@ -1,4 +1,4 @@
-import { ReactFlow, Controls, Panel } from "@xyflow/react";
+import { ReactFlow, Controls, Background, Panel } from "@xyflow/react";
 import { NodeOrigin } from "@xyflow/react";
 import { shallow } from "zustand/shallow";
 
@@ -31,6 +31,7 @@ export function Editor() {
       nodeOrigin={nodeOrigin}
       fitView
     >
+      <Background />
       <Controls showInteractive={true} />
       <Panel position="top-left">React Flow Mind Map</Panel>
     </ReactFlow>
